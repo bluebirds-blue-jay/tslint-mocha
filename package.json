@@ -1,6 +1,6 @@
 {
   "name": "tslint-mocha",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1",
   "description": "TSLint rules for Mocha test runner",
   "main": "dist/index.js",
   "private": false,
@@ -8,7 +8,7 @@
     "tslint",
     "mocha"
   ],
-  "author": "Andrey Lipatkin <lipatkin@gmail.com>",
+  "author": "Andrey Lipatkin",
   "license": "MIT",
   "repository": {
     "type": "git",
