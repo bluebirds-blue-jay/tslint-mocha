@@ -1,0 +1,9 @@
+{
+    "rules": {
+        "mocha-no-only": true
+    },
+    "rulesDirectory": [
+        "../../dist"
+    ]
+}
+

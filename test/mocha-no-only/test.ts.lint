@@ -1,0 +1,30 @@
+// Bad
+
+describe("My Test", () => {
+  it.only("should fail", () => {
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  });
+~~~~ [Do not use it.only method]
+});
+
+describe.only("My Test", function() {
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+});
+~~ [Do not use describe.only method]
+
+context("Some Context", () => {
+  specify.only("some test", () => {
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  });
+~~~~ [Do not use specify.only method]
+});
+
+context.only("Some Context", () => {
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+});
+~~ [Do not use context.only method]
+
+// Good
+
+it.only();
+describe.only(() => {});
