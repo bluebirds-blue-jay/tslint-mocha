@@ -1,5 +1,7 @@
 # tslint-mocha
 
+UPDATE: Project is abandoned because TSLint is being replaced by ESLint + plugins.
+
 This package provides a TSLint rule that help to enforce some best practices when using Mocha test runner.
 
 ## Supported rules
