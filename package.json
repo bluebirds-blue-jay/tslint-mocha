@@ -1,6 +1,6 @@
 {
-  "name": "tslint-mocha",
-  "version": "1.0.2",
+  "name": "@bluejay/tslint-mocha",
+  "version": "1.0.3",
   "description": "TSLint rules for Mocha test runner",
   "main": "dist/index.js",
   "private": false,
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Litee/tslint-mocha"
+    "url": "https://github.com/bluebirds-blue-jay/tslint-mocha"
   },
   "devDependencies": {
     "@types/node": "^10.14.8",
